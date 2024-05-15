@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "joshbolduc.commitlint",
+        "streetsidesoftware.code-spell-checker-dutch",
+        "yzhang.markdown-all-in-one",
+        "christian-kohler.npm-intellisense"
+    ]
+}

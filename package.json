@@ -1,0 +1,33 @@
+{
+    "author": "Willem Vanhulle <willemvanhulle@gmail.com>",
+    "main": "./tsconfig.json",
+    "module": "./tsconfig.json",
+    "exports": {
+        ".": "./tsconfig.json"
+    },
+    "name": "@wvhulle/tsconfig",
+    "description": "TypeScript configuration for Node.",
+    "scripts": {
+        "prettier": "prettier --config .prettierrc --cache --cache-location .prettiercache  --write  .  ",
+        "prepublishOnly": "npm run prettier && publint"
+    },
+    "version": "0.0.1",
+    "private": false,
+
+    "repository": "https://github.com/wvhulle/tsconfig",
+    "keywords": [
+        "TypeScript",
+        "Node",
+        "library"
+    ],
+    "files": [
+        "tsconfig.json"
+    ],
+    "license": "GPL-3.0-only",
+    "type": "module",
+    "devDependencies": {
+        "@wvhulle/prettier-config-node": "^0.0.1",
+        "prettier": "^3.0.3",
+        "publint": "^0.2.5"
+    }
+}
