@@ -26,8 +26,6 @@
     "license": "GPL-3.0-only",
     "type": "module",
     "devDependencies": {
-        "@wvhulle/prettier-config-node": "^0.0.1",
-        "prettier": "^3.0.3",
         "publint": "^0.2.5"
     }
 }
