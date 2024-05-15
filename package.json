@@ -8,8 +8,7 @@
     "name": "@wvhulle/tsconfig",
     "description": "TypeScript configuration for Node.",
     "scripts": {
-        "prettier": "prettier --config .prettierrc --cache --cache-location .prettiercache  --write  .  ",
-        "prepublishOnly": "npm run prettier && publint"
+        "prepublishOnly": "publint"
     },
     "version": "0.0.1",
     "private": false,
